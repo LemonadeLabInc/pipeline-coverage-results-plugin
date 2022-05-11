@@ -27,3 +27,13 @@ def lineCoverage = getCoverage('Line');
 ```groovy
 def conditionCoverage = getCoverage('Conditional');
 ```
+
+### Line coverage delta
+```groovy
+def lineCoverageDelta = getCoverageDelta('Line');
+```
+
+### Branch coverage delta
+```groovy
+def conditionCoverageDelta = getCoverageDelta('Conditional');
+```
